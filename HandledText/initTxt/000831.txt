@@ -1,0 +1,10 @@
+train 176 108 473 166 
+train 157 98 181 151 
+person 40 132 54 171 
+person 54 132 68 166 
+person 68 133 76 168 
+person 82 133 93 155 
+person 74 133 83 155 
+person 196 122 217 183 
+person 13 123 39 182 
+train 2 107 160 153 

@@ -1,0 +1,15 @@
+bus 388 2 500 124 
+bus 273 1 390 78 
+bus 82 2 189 63 
+person 455 23 480 99 
+person 323 29 349 98 
+person 233 32 258 85 
+person 207 29 230 82 
+person 190 46 208 82 
+person 130 32 153 66 
+person 59 27 79 65 
+person 77 18 97 64 
+person 48 26 61 67 
+person 35 29 54 68 
+person 1 18 19 69 
+person 16 20 37 70 
