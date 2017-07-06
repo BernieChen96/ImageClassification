@@ -75,10 +75,11 @@ public class ReadImageParitionTxt {
                 }
                 out = new FileOutputStream(handledFilePath + fileName);
                 bw = new BufferedWriter(new OutputStreamWriter(out));
-//                bw.write(pictureName + "\r\n");
+                //bw.write(pictureName + "\r\n");
                 Iterator<String> contentIte = picture.getContents().iterator();
                 while (contentIte.hasNext()) {
                     String content = contentIte.next();
+                    //去掉最后一行
                     if (content.charAt(0) < '9' && content.charAt(0) > '0')
                         break;
                     bw.write(content + "\r\n");
