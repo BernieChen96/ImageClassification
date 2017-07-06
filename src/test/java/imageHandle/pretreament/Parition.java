@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by CMM on 2017/7/6.
  */
-public class parition {
+public class Parition {
     List<Picture> pictures = null;
     ReadImageParitionTxt readImageParitionTxt = null;
     ImageParition imageParition = null;
@@ -24,4 +24,6 @@ public class parition {
         pictures = readImageParitionTxt.getPictures();
         //根据区域图片，对图像进行划分
     }
+
+
 }

@@ -144,6 +144,7 @@ public class OpenCVTest {
     }
 
 
+
     /**
      * 通过伽马校正的图片
      * 计算图像梯度
@@ -170,8 +171,6 @@ public class OpenCVTest {
             }
         }
     }
-
-
     @Test
     public void test1() {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);

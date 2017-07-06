@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ed13c8-3ca2-4f12-ab45-380422040329" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/ImageClassification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/hog/Hog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGamma.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/parition.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HandledImages/specifiedArea/000001-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HandledText/initTxt/000001.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/imageHandle/main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/imageHandle/main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/textProcessing/ReadImageParitionTxtTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/imageHandle/pretreament/ImageParition.class" afterPath="$PROJECT_DIR$/target/classes/imageHandle/pretreament/ImageParition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/imageHandle/textProcessing/ReadImageParitionTxt.class" afterPath="$PROJECT_DIR$/target/classes/imageHandle/textProcessing/ReadImageParitionTxt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/CalcultedGradient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/imageHandle/ImageClassification.class" afterPath="$PROJECT_DIR$/target/classes/imageHandle/ImageClassification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/imageHandle/pretreament/ImageGamma.class" afterPath="$PROJECT_DIR$/target/classes/imageHandle/pretreament/ImageGamma.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/imageHandle/textProcessing/ReadImageParitionTxt.java" afterPath="$PROJECT_DIR$/src/main/java/imageHandle/textProcessing/ReadImageParitionTxt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/textProcessing/ReadImageParitionTxtTest.java" afterPath="$PROJECT_DIR$/src/test/java/imageHandle/textProcessing/ReadImageParitionTxtTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java" afterPath="$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/parition.java" afterPath="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/Parition.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,64 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImageParition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="38" column="90" lean-forward="false" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageGamma.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGamma.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenCVTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageGray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageClassification.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/ImageClassification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,11 +46,14 @@
         <option value="$PROJECT_DIR$/src/test/java/imageHandle/textProcessing/ReadImageParitionTxtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/imageHandle/textProcessing/ReadImageParitionTxt.java" />
         <option value="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/parition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGray.java" />
         <option value="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java" />
         <option value="$PROJECT_DIR$/src/main/java/imageHandle/ImageClassification.java" />
         <option value="$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGamma.java" />
+        <option value="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/calcultedGradient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/Parition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/imageHandle/pretreament/CalcultedGradient.java" />
       </list>
     </option>
   </component>
@@ -152,7 +87,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,15 +112,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,10 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imageHandle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,10 +163,6 @@
               <option name="myItemId" value="imageHandle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pretreament" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -306,36 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="imageHandle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageClassification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageClassification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imageHandle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pretreament" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,14 +258,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gammaCorrect" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,33 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="ReadImageParitionTxtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="imageHandle.textProcessing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ImageClassification" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="imageHandle.textProcessing" />
-      <option name="MAIN_CLASS_NAME" value="imageHandle.textProcessing.ReadImageParitionTxtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalcultedGradient.calculatedGradient">
     <configuration default="false" name="ReadImageParitionTxtTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -506,7 +369,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="parition.parition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Parition.parition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="imageHandle.pretreament.*" />
@@ -517,8 +380,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="imageHandle.pretreament" />
-      <option name="MAIN_CLASS_NAME" value="imageHandle.pretreament.parition" />
+      <option name="MAIN_CLASS_NAME" value="imageHandle.pretreament.Parition" />
       <option name="METHOD_NAME" value="parition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalcultedGradient.calculatedGradient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="imageHandle.pretreament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ImageClassification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="imageHandle.pretreament" />
+      <option name="MAIN_CLASS_NAME" value="imageHandle.pretreament.CalcultedGradient" />
+      <option name="METHOD_NAME" value="calculatedGradient" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -920,19 +809,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.read" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ImageClassification" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.createNewFile" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.parition.parition" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.read" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ImageClassification" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.createNewFile" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Parition.parition" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalcultedGradient.calculatedGradient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ImageClassification" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.parition.parition" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.createNewFile" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.read" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalcultedGradient.calculatedGradient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImageClassification" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Parition.parition" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.createNewFile" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReadImageParitionTxtTest.read" />
       </list>
     </recent_temporary>
   </component>
@@ -951,31 +840,37 @@
       <updated>1499324296650</updated>
       <workItem from="1499324298250" duration="61000" />
       <workItem from="1499324395776" duration="8387000" />
-      <workItem from="1499333412321" duration="125000" />
+      <workItem from="1499333412321" duration="1053000" />
+      <workItem from="1499337341439" duration="894000" />
+      <workItem from="1499344097995" duration="4008000" />
+      <workItem from="1499361566802" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadImageParitionTxtTest - 2017.07.06 at 15h 06m 19s.xml">
-      <configuration name="ReadImageParitionTxtTest" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 25m 23s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadImageParitionTxtTest_createNewFile - 2017.07.06 at 16h 11m 42s.xml">
-      <configuration name="ReadImageParitionTxtTest.createNewFile" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 03s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadImageParitionTxtTest_createNewFile - 2017.07.06 at 16h 12m 22s.xml">
-      <configuration name="ReadImageParitionTxtTest.createNewFile" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 21s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadImageParitionTxtTest_read - 2017.07.06 at 15h 06m 36s.xml">
-      <configuration name="ReadImageParitionTxtTest.read" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 28s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parition_parition - 2017.07.06 at 16h 17m 29s.xml">
-      <configuration name="parition.parition" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 36s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parition_parition - 2017.07.06 at 16h 17m 33s.xml">
-      <configuration name="parition.parition" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 43s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parition_parition - 2017.07.06 at 16h 19m 19s.xml">
-      <configuration name="parition.parition" configurationId="JUnit" />
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 31m 49s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcultedGradient_calculatedGradient - 2017.07.07 at 01h 32m 56s.xml">
+      <configuration name="CalcultedGradient.calculatedGradient" configurationId="JUnit" />
     </history-entry>
     <history-entry file="parition_parition - 2017.07.06 at 16h 21m 24s.xml">
       <configuration name="parition.parition" configurationId="JUnit" />
@@ -985,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8573000" />
+    <option name="totallyTimeSpent" value="15281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -993,18 +888,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31127983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19414316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1016,7 +912,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26681128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1029,7 +924,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1038,34 +933,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2643.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2663.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2706.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2649.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2615.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2598.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2562.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2561.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2576.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2618.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2654.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2694.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/test/test1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/person-732.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2709.jpg" />
     <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/train-2708.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/pretreament/parition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/hog/Hog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1082,145 +950,148 @@
     <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/bus-11.jpg" />
     <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/bus-33.jpg" />
     <entry file="file://$PROJECT_DIR$/HandledImages/specifiedArea/bus-79.jpg" />
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-33.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-79.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-113.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-117.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-119.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-121.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-133.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-153.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-201.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-300.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-309.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-310.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-350.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-360.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-364.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-459.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-537.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-473.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/ImageClassification.java">
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-11.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-33.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-79.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-113.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-117.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-119.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-121.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-133.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-153.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-201.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-300.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-309.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-310.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-350.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-360.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-364.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-459.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-537.jpg" />
+    <entry file="file://$PROJECT_DIR$/HandledImages/grayImages/bus-473.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="1323">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="425">
           <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/ImageClassification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="542">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-79.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageGamma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="675">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hog.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/opencv-320.jar!/org/opencv/imgcodecs/Imgcodecs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4668">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-120.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-148.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-309.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-250.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-113.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-33.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/bus-11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/OpenCVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2727">
+          <caret line="106" column="24" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/pretreament/Parition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/opencv-320.jar!/org/opencv/imgproc/Imgproc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/test/test1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/imageHandle/pretreament/CalcultedGradient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/imageHandle/pretreament/ImageParition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="38" column="90" lean-forward="false" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gammaCorrect/000001-gamma.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandledImages/gradientImages/000001-gradient.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
