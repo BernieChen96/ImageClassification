@@ -18,6 +18,8 @@ public class ReadImageParitionTxt {
     OutputStream out = null;
     BufferedReader br = null;
     BufferedWriter bw = null;
+
+
     List<Picture> pictures = null;
 
     public ReadImageParitionTxt() {
@@ -62,6 +64,9 @@ public class ReadImageParitionTxt {
         }
     }
 
+    /**
+     * 将图像注释进行分解，写到initTxt文件夹中
+     */
     public void write() {
         Iterator<Picture> pictureIte = pictures.iterator();
         while (pictureIte.hasNext()) {
@@ -80,7 +85,7 @@ public class ReadImageParitionTxt {
                 while (contentIte.hasNext()) {
                     String content = contentIte.next();
                     //去掉最后一行
-                    if (content.charAt(0) < '9' && content.charAt(0) > '0')
+                    if (content.charAt(0) <= '9' && content.charAt(0) > '0')
                         break;
                     bw.write(content + "\r\n");
                 }
@@ -89,5 +94,9 @@ public class ReadImageParitionTxt {
                 e.printStackTrace();
             }
         }
+    }
+
+    public List<Picture> getPictures() {
+        return pictures;
     }
 }

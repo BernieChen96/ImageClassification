@@ -1,6 +1,5 @@
-package textProcessing;
+package imageHandle.textProcessing;
 
-import imageHandle.textProcessing.ReadImageParitionTxt;
 import org.junit.Test;
 
 import java.io.File;
