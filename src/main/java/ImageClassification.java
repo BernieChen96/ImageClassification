@@ -1,8 +1,6 @@
-package imageHandle;
-
 import imageHandle.pretreament.ImageParition;
 import imageHandle.textProcessing.ReadImageParitionTxt;
-import imageHandle.textProcessing.domain.Picture;
+import imageHandle.domain.Picture;
 
 import java.util.Iterator;
 import java.util.List;
@@ -30,10 +28,10 @@ public class ImageClassification {
         //得到每张图片包含注解
         pictures = readImageParitionTxt.getPictures();
         Iterator<Picture> pictureIterator = pictures.iterator();
-        //1输出指定区域图片，2输出灰度化图片，0不输出图片
+        //1输出指定区域图片，2输出灰度化图片，3输出gamma校正图，4输出各方向梯度图，0不输出图片
         while (pictureIterator.hasNext()) {
             Picture picture = pictureIterator.next();
-            imageParition.startParition(picture, 3);
+            imageParition.startParition(picture, 0);
             count++;
             System.out.println("第" + count + "张图片结束");
         }

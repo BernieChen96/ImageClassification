@@ -184,7 +184,7 @@ public class OpenCVTest {
 
     @Test
     public void mathTest() {
-        float i = (float) Math.atan(5/0.0001);
+        float i = (float) Math.atan(91/6);
         int d = (int) ((float) (i / PI) * 180);
         System.out.println("atan:" + i + ",i/PI:" + (float) (i / PI) + ",角度：" + d);
     }

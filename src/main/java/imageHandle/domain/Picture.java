@@ -1,4 +1,4 @@
-package imageHandle.textProcessing.domain;
+package imageHandle.domain;
 
 import java.util.ArrayList;
 import java.util.List;

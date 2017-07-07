@@ -1,7 +1,7 @@
 package imageHandle.pretreament;
 
 import imageHandle.textProcessing.ReadImageParitionTxt;
-import imageHandle.textProcessing.domain.Picture;
+import imageHandle.domain.Picture;
 import org.junit.Test;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by CMM on 2017/7/6.
  */
-public class Parition {
+public class ParitionTest {
     List<Picture> pictures = null;
     ReadImageParitionTxt readImageParitionTxt = null;
     ImageParition imageParition = null;

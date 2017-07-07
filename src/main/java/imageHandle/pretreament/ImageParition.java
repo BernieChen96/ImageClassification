@@ -1,12 +1,13 @@
 package imageHandle.pretreament;
 
-import imageHandle.textProcessing.domain.Picture;
+import imageHandle.domain.PictureGradient;
+import imageHandle.domain.Picture;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.Rect;
 import org.opencv.imgcodecs.Imgcodecs;
 
-import java.io.*;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -18,6 +19,10 @@ public class ImageParition {
     public static final String SPECIFIEDAREA_PATH = "././HandledImages/specifiedArea/";
     public static final String PRIMARYIMAGES_PATH = "././JPEGImages/";
     static int count = 0;
+    static float gamma = 0.8F;
+
+    //保存所有图片的梯度值和方向(暂看)
+    List<PictureGradient> gradients = new ArrayList<PictureGradient>();
 
     /**
      * 通过注释的内容  将图片上的图片进行划分
@@ -36,7 +41,9 @@ public class ImageParition {
             try {
                 Mat imageMat = parition(primaryImagePath, concreteContent, flag);
                 imageMat = ImageGray.gray(imageMat, concreteContent, count, flag);
-                imageMat = ImageGamma.gammaCorrecting(imageMat, (float) 0.8, concreteContent, count, flag);
+                imageMat = ImageGamma.gammaCorrecting(imageMat, gamma, concreteContent, count, flag);
+                ImageGradient.calculatedGradient(imageMat, concreteContent, count, flag);
+
             } catch (Exception e) {
                 e.printStackTrace();
             }

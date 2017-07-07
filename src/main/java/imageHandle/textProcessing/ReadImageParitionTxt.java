@@ -1,6 +1,6 @@
 package imageHandle.textProcessing;
 
-import imageHandle.textProcessing.domain.Picture;
+import imageHandle.domain.Picture;
 
 import java.io.*;
 import java.util.ArrayList;
