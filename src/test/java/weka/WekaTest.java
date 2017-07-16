@@ -6,6 +6,7 @@ import weka.classifiers.trees.J48;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 
+
 import java.io.File;
 
 /**
@@ -27,6 +28,7 @@ public class WekaTest {
             double sum = instancesTest.numInstances(),//测试语料实例数
                     right = 0.0f;
             instancesTrain.setClassIndex(0);
+
 
             m_classifier.buildClassifier(instancesTrain); //训练
             for (int i = 0; i < sum; i++)//测试分类结果

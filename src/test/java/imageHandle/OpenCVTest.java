@@ -13,6 +13,7 @@ import org.opencv.imgproc.Imgproc;
 public class OpenCVTest {
     String primaryFilePath = "./JPEGImages/000001.jpg";
     String handledFilePath = "./HandledImages/000001.jpg";
+    String path = "././HandledImages/specifiedArea/bus-11.jpg";
     static final double PI = 3.1415926;
 
     /**
@@ -102,10 +103,10 @@ public class OpenCVTest {
     @Test
     public void grayTest() {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        Mat src = Imgcodecs.imread(primaryFilePath);
+        Mat src = Imgcodecs.imread(path);
         Mat gray = new Mat();
         Imgproc.cvtColor(src, gray, Imgproc.COLOR_RGB2GRAY);
-        Imgcodecs.imwrite("./HandledImages/000001.jpg", gray);
+        Imgcodecs.imwrite("././HandledImages/test/test.jpg", gray);
     }
 
     /**
@@ -115,7 +116,7 @@ public class OpenCVTest {
     @Test
     public void gammaCorrecting() {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        Mat src = Imgcodecs.imread(handledFilePath, -1);
+        Mat src = Imgcodecs.imread("././HandledImages/test/test.jpg", -1);
         int width = src.cols();
         int height = src.rows();
         byte[] data = new byte[width * height];
@@ -140,7 +141,7 @@ public class OpenCVTest {
             }
         }
         src.put(0, 0, data);
-        Imgcodecs.imwrite("HandledImages/gammaCorrect/000001-gamma.jpg", src);
+        Imgcodecs.imwrite("././HandledImages/test/test.jpg", src);
     }
 
 
